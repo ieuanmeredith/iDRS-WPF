@@ -9,6 +9,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\beep-02.mp3" />
+    <None Remove="Assets\beep-07.mp3" />
+    <None Remove="Assets\beep-24.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\beep-02.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\beep-07.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\beep-24.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\icon.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -17,18 +32,6 @@
   <ItemGroup>
     <PackageReference Include="irsdkSharp" Version="0.4.0" />
     <PackageReference Include="naudio" Version="2.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Assets\beep-02.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Assets\beep-07.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Assets\beep-24.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 
 </Project>
