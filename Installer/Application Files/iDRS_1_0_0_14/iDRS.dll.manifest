@@ -432,7 +432,7 @@
       <dsig:DigestValue>3RQTOt9cU0U5KYQi9sS1Jzn4CsqMWoXKjJZt6plkzrE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Assets\beep-02.mp3" size="9244">
+  <file name="Assets\beep-02.mp3" size="9244" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -441,7 +441,7 @@
       <dsig:DigestValue>THfFIwLnw3yIl+gopaa3wMRFG8O2Kyr+pG/MWlCeFn4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Assets\beep-07.mp3" size="6318">
+  <file name="Assets\beep-07.mp3" size="6318" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -450,7 +450,7 @@
       <dsig:DigestValue>JABKgt1SdLhS3nZu8rKsA1yi1rKu/HIIaACWi0qY530=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Assets\beep-24.mp3" size="12784">
+  <file name="Assets\beep-24.mp3" size="12784" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
